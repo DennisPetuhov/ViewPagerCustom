@@ -12,7 +12,7 @@ class ViewPagerAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
 //    getItemCount(): This method returns the total number of items in the Adapter.
 
     override fun getItemCount(): Int {
-        return 3
+        return 4
     }
 
     //    createFragment(position: Int): This method returns a Fragment instance for the given position.
